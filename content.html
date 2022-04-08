@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+    <style>
+        .parent {
+            display: flex;
+            margin: 10px;
+
+        }
+
+        .flex-child {
+            flex: 1;
+            border: 2px solid red;
+            background-color: rgb(255, 235, 235);
+            border-radius: 13px;
+            height: auto;
+            margin: 15px;
+            font-style: italic;
+        }
+    </style>
+    <script>
+        function openit()
+        {
+            open("itfield.html","_blank")
+        }
+        function opendev()
+        {
+            open("development.html","_blank")
+        }
+        function openelect()
+        {
+            open("elect.html","_blank")
+        }
+        function openmech()
+        {
+            open("mechanics.html","_blank")
+        }
+        function openagri()
+        {
+            open("agri.html","_blank")
+        }
+        function opencompiler()
+        {
+            open("compiler.html","_blank")
+        }
+    </script>
+</head>
+
+<body>
+    <div class='parent flex-parent'>
+
+        <div class='child flex-child' onclick="openit()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->IT Fields</div>
+            <ul>
+                <li>Data science</li>
+                <li> Machine Learning</li>
+                <li> Artifical Intelligence</li>
+
+            </ul>
+        </div>
+        <div class='child flex-child' onclick="opendev()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->Development</div>
+            <ul>
+                <li>Web Development</li>
+                <li> App Development</li>
+                <li> Personality Development</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class='parent flex-parent'>
+        <div class='child flex-child' onclick="openelect()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->Electronics</div>
+            <ul>
+                <li>Circuit Design</li>
+                <li> Micro-Controllers</li>
+                <li> Logic-Gates</li>
+
+            </ul>
+        </div>
+        <div class='child flex-child' onclick="openmech()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->Mechanics</div>
+            <ul>
+                <li>Mchines</li>
+                <li>Materials</li>
+                <li> Production</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class='parent flex-parent'>
+        <div class='child flex-child' onclick="openagri()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->Agriculture</div>
+            <ul>
+                <li>Soil Analysis</li>
+                <li> Farming technique</li>
+                <li> Resources</li>
+
+            </ul>
+        </div>
+        <div class='child flex-child' onclick="opencompiler()">
+            <div style=" background-color: rgb(255, 161, 161); border-radius: 5px; height: 25px;">-->Compilers</div>
+            <ul>
+                <li>Python</li>
+                <li> Java</li>
+                <li> C/C++</li>
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

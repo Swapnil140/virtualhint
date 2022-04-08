@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            text-decoration: none;
+            font-family: monospace;
+        }
+
+        .cbox{
+
+            border: 5px solid black;
+            height: 200px;
+            width: 300px;
+            margin: 25px;
+            background-color: aliceblue;
+            }
+            div.cbox:hover{
+                cursor: pointer;
+                background-color: rgb(255, 104, 104);
+
+            }
+           
+           
+    </style>
+    <script>
+        function python()
+        {
+            open("https://www.programiz.com/python-programming/online-compiler/","_blank")
+        }
+        function cp()
+        {
+            open("https://codepen.io/pen/","_blank")
+        }
+        function c()
+        {
+            open("https://www.programiz.com/c-programming/online-compiler/","_blank")
+        }
+        function java()
+        {
+            open("https://www.mycompiler.io/new/java","_blank")
+        }
+    </script>
+</head>
+
+<body style="background-image: url(learn.webp);">
+    <center>
+        <h1 style="font-size: 50px;">Compilers</h1>
+    </center>
+    <div style="margin-left: 300px; margin-top: 50px;">
+        <div style="display: flex;">
+            <div class="cbox" onclick="python()">
+                <center>
+                    <p style="margin-top: 70px; font-size: 250%;">Python</p>
+                </center>
+            </div>
+            <div class="cbox" onclick="c()">
+                <center>
+                    <p style="margin-top: 70px; font-size: 250%;">C++/C</p>
+                </center>
+
+            </div>
+
+        </div>
+
+       
+
+        <div style="display: flex; margin-left: -150px;">
+            <div class="cbox" onclick="python()">
+                <center>
+                    <p style="margin-top: 70px; font-size: 250%;">Java</p>
+                </center>
+            </div>
+            <div class="cbox all" onclick="cp()">
+               
+                <center>
+                    <p style="margin-top: 70px; font-size: 250%;">Code Pen</p>
+                </center>
+                
+            </div>
+            <div class="cbox all" style="float: right;">
+                <center style="margin-top: 45px;"><h3>~IDEs for coding(Download here!)</h3></center>
+                
+                
+                <ul style="list-style: none; margin-left: 100px; margin-top:  px;" >
+                    <li><a  href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
+                    <li><a  href="https://code.visualstudio.com/download"target="_blank">VS Code</a></li>
+                    <li><a   href="https://atom.io/" target="_blank">Atom</a></li>
+                    <li><a  href="https://notepad-plus-plus.org/downloads/" target="_blank">Notepad++</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+<style>
+  ul li a:hover{
+        color: yellow;
+        transition: 5s;
+    }
+</style>
+
+</body>
+
+</html>
